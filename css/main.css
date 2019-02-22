@@ -1,0 +1,342 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Tahoma, Arial, sans-serif;
+	letter-spacing: .02em;
+	color: #272c2f;
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+p {
+	margin: 0;
+}
+
+div, p, form, input, a, span {
+	box-sizing: border-box;
+}
+
+ul, li {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-size: 23px;
+	font-weight: bold;
+	margin-bottom: 28px;
+	text-transform: uppercase;
+}
+
+h3 {
+	font-size: 17px;
+	font-weight: bold;
+}
+
+h4 {
+	text-transform: uppercase;
+	color: #c0ddee;
+}
+
+.title {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navigation {
+	background: #455991;
+	color: #fff;
+	padding: 30px 0 34px 0;
+	box-shadow: 0 0 10px rgba(8, 8, 8, 0.78);
+}
+
+/*----------------Логотип-----------------*/
+.navigation .logo {
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #fff;
+}
+
+.navigation a {
+	color: #fff;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+
+/*-----------------Меню-------------------*/
+.menu {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	width: 360px;
+	margin-left: 90px;
+}
+
+.menu li {
+	
+}
+
+.navigation .phone-number {
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.main-title h1{
+	margin-top: 72px;
+	margin-bottom: 16px;
+}
+
+.main-title p {
+	width: 340px;
+	font-size: 14px;
+	color: #828899;
+	line-height: 1.5em;
+	margin-bottom: 38px;
+}
+
+/*----------------Карточки--------------*/
+.card-title {
+	font-size: 17px;
+	font-weight: bold;
+	font-family: Tahoma, Arial, sans-serif;
+	margin-bottom: 14px;
+}
+
+#card-text3 {
+	margin-bottom: 10px;
+}
+
+.card-text {
+	line-height: 1.5em;
+	font-size: 15px;
+	color: #272c2f;
+}
+.card3 a {
+	font-size: 15px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #22a2ec;
+	margin-top: 40px;
+}
+.cards {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+}
+
+.card1 {
+	width: 308px;
+	height: 222px;
+	padding: 28px 24px 20px 30px;
+	border: 1px solid #d6d6d6;
+}
+
+.card2 {
+	width: 308px;
+	height: 222px;
+	padding: 28px 20px 20px 31px;
+	border-radius: 15px;
+	box-shadow: 0 0 35px rgba(8, 8, 8, 0.28);
+}
+
+.card3 {
+	width: 308px;
+	height: 250px;
+	padding: 28px 20px 20px 31px;
+	border: 1px solid #d6d6d6;
+}
+
+/*-----------------Блок с формой ------------------*/
+.multisection .container {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	margin-top: 50px;
+}
+
+.form-title {
+	font-size: 19px;
+	font-weight: bold;
+	margin-bottom: 40px;
+	text-transform: uppercase;
+}
+
+.form-block {
+	width: 370px;
+	font-size: 18px;
+}
+
+.form-block input {
+	font-size: 14px;
+	font-family: Tahoma, Arial, sans-serif;
+	color: #a2a3a4;
+	border: 1px solid #d6d6d6;
+	width: 240px;
+	height: 46px;
+	padding-left: 22px;
+	margin-bottom: 11px;
+}
+
+.form-block textarea {
+	font-size: 14px;
+	font-family: Tahoma, Arial, sans-serif;
+	border: 1px solid #d6d6d6;
+	width: 359px;
+	height: 124px;
+	padding: 10px 22px;
+	font-family: Tahoma, Arial, sans-serif;
+	box-sizing: border-box;
+	resize: none;
+	margin-bottom: 20px;
+}
+
+/*--Кнопка отправить--*/
+.send {
+	font-family: Tahoma, Arial, sans-serif;
+	background: #ebce0d;
+	font-weight: bold;
+	font-size: 15px;
+	text-decoration: none;
+	display: block;
+	padding: 12px;
+	padding-left: 20px;
+	border: none;
+	text-align: center;
+	width: 166px;
+	cursor: pointer;
+	margin-bottom: 20px;
+}
+
+.data {
+	letter-spacing: .032em;
+	font-size: 12px;
+	font-weight: normal;
+	color: #84898d;
+	margin-bottom: 68px;
+}
+
+.multiblock {
+	background: #184c6b;
+	padding: 43px 28px 40px 44px;
+	border-radius: 10px;
+	width: 546px;	
+	height: 456px;
+}
+
+.multiblock h4 {
+	margin-bottom: 21px;
+}
+
+.paragraphs {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;	
+}
+
+.p-1 {
+	color: #c0ddee;
+	font-size: 14px;
+	line-height: 1.5em;
+	font-family: Tahoma, Arial, sans-serif;
+	margin-bottom: 20px;
+}
+
+.paragraph {
+	width: 212px;
+	margin-right: 25px;
+}
+
+/*--------------Footer---------------*/
+
+.footer .container {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer {
+	background: #455991;
+	height: 100px;
+	padding-top: 30px;
+}
+
+.footer .text {
+	font-size: 13px;
+	color: #fff;
+}
+
+.btn-1 {
+	font-size: 12px;
+	font-weight: bold;
+	color: #fff;
+	width: 145px;
+	height: 37px;
+	padding: 12px;
+	margin-left: 28px;
+	background: transparent;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.btn-2 {
+	font-size: 12px;
+	font-weight: bold;
+	color: #fff;
+	width: 148px;
+	height: 40px;
+	padding: 10px;
+	margin-left: 16px;
+	background: transparent;
+	border: 1px solid #fff;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+.white {
+	font-size: 12px;
+	font-weight: normal;
+	width: 230px;
+	height: 40px;
+	line-height: 38px;
+	text-align: center;
+	margin-left: 14px;
+	margin-right: 22px;
+	background: #fff;
+	color: #455991;
+	border: 1px solid #fff;
+	border-radius: 3px;
+}
